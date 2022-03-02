@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root {
+    height: 100vh;
+}
+ #root {
+    display: flex;
+    flex-direction: column;
+    
+} 
+
+
+body{
+    background-color:white;
+}
+
+#conten-header {
+background-color: black;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 1rem 1rem;
+
+
+}
+nav {
+    a{
+        color: white;
+        text-decoration: none;
+        margin-left : 10vh;
+
+    }
+
+
+}
+main {
+    flex-grow: 1;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: start;
+
+}
